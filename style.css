@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Jost', sans-serif;
+}
+
+.messenger {
+    background: linear-gradient(180deg, #D6DDC6 0%, #FFF 100%);
+}
+
+.menu {
+    padding: 47px 31px 0;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.menu__chat_btn {
+    border-radius: 20px 20px 0px 0px;
+    background: #FFF;
+    color: #9B9B9B;
+    font-size: 24px;
+    box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.20);
+    border: none;
+    padding: 17px 30px;
+}
+
+.menu__new_chat_btn {
+    background: transparent;
+    border: none;
+    margin-left: 12px;
+}
+
+.chat {
+    height: 500px;
+    border-top: 4px solid #FFF;
+    z-index: 20;
+}
+
+.user_actions {
+    border-top: 4px solid #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 30px;
+}
+
+.message_input {
+    width: 50%;
+    border-radius: 16px;
+    font-size: 24px;
+    background: #FFF;
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.20);
+    border: none;
+    padding: 20px 30px;
+}
+
+.message_input:focus {
+    outline: none;
+}
+
+.add_file_btn {
+    border-radius: 16px;
+    background: #D6DDC6;
+    border: none;
+    padding: 15px 24px;
+}
+
+.send_message_btn {
+    border-radius: 16px;
+    background: #D6DDC6;
+    color: #FFF;
+    font-size: 40px;
+    border: none;
+    padding: 20px 30px;
+}
+

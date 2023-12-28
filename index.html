@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="messenger">
+        <header class="menu">
+            <ul class="menu__list">
+                <li><button class="menu__chat_btn">Чат с</button></li>
+                <li><button class="menu__new_chat_btn"><svg width="38" height="45" viewBox="0 0 78 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_7_36)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.9167 8.58333C20.26 8.58333 7.58333 17.5826 7.58333 31.625C7.58333 36.7942 8.86188 40.6076 11.1466 43.6574C13.4755 46.766 17.055 49.3549 22.1202 51.6739L24.8073 52.904L23.8727 55.7075C22.5317 59.7306 20.2562 63.4261 17.9572 66.4653C25.9004 63.9699 36.2758 60.1101 43.6116 55.2193C50.8855 50.3704 54.9731 46.5537 57.2845 42.9977C59.512 39.5708 60.25 36.1379 60.25 31.625C60.25 17.5826 47.5735 8.58333 33.9167 8.58333ZM1 31.625C1 12.7507 17.9484 2 33.9167 2C49.8849 2 66.8333 12.7507 66.8333 31.625C66.8333 36.9871 65.9255 41.7834 62.804 46.5856C59.7665 51.2588 54.802 55.6713 47.2634 60.6973C37.4654 67.229 23.2711 71.8597 15.1467 74.18C12.4769 74.9424 10.3501 73.3758 9.43467 71.7442C8.53291 70.1368 8.31036 67.6536 10.0328 65.7313C12.3378 63.1585 14.8646 59.8451 16.5569 56.27C12.1928 53.956 8.54865 51.1696 5.87789 47.6044C2.60584 43.237 1 37.9766 1 31.625Z" fill="white"/>
+                    <path d="M33.9167 18.4584C32.0987 18.4584 30.625 19.9321 30.625 21.75V28.3334H24.0417C22.2237 28.3334 20.75 29.8071 20.75 31.625C20.75 33.443 22.2237 34.9167 24.0417 34.9167H30.625V41.5C30.625 43.318 32.0987 44.7917 33.9167 44.7917C35.7347 44.7917 37.2083 43.318 37.2083 41.5V34.9167H43.7917C45.6097 34.9167 47.0833 33.443 47.0833 31.625C47.0833 29.8071 45.6097 28.3334 43.7917 28.3334H37.2083V21.75C37.2083 19.9321 35.7347 18.4584 33.9167 18.4584Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_7_36" x="0" y="0" width="77.8333" height="84.3785" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dx="5" dy="4"/>
+                    <feGaussianBlur stdDeviation="3"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_36" result="shape"/>
+                    </filter>
+                    </defs>
+                    </svg>
+                    </button></li>
+            </ul>
+        </header>
+        <div class="chat"></div>
+        <div class="user_actions">
+            <input type="text" name="input_message" id="" class="message_input" placeholder="Введите текст сообщения">
+            <button class="add_file_btn"><svg width="46" height="49" viewBox="0 0 64 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_7_31)">
+                <path d="M27 5H13.2C9.97971 5 8.36954 5 7.13956 5.59342C6.05761 6.11538 5.17797 6.94827 4.62672 7.97272C4 9.13734 4 10.6619 4 13.7111V45.2889C4 48.338 4 49.8628 4.62672 51.0273C5.17797 52.0517 6.05761 52.8847 7.13956 53.4066C8.36954 54 9.97971 54 13.2 54H24.125M27 5L44.25 21.3333M27 5V16.9778C27 18.5024 27 19.2647 27.3134 19.847C27.5891 20.3592 28.0287 20.7756 28.5697 21.0366C29.1847 21.3333 29.9897 21.3333 31.6 21.3333H44.25M44.25 21.3333V29.5M38.5 48.5556H50M44.25 43.1111V54" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                <filter id="filter0_d_7_31" x="-7.62939e-06" y="0" width="64" height="67" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dx="5" dy="4"/>
+                <feGaussianBlur stdDeviation="3"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.35 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_31"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_31" result="shape"/>
+                </filter>
+                </defs>
+                </svg>
+                </button>
+            <button class="send_message_btn">Отправить</button>
+        </div>
+    </main>
+
+    <dialog open>
+        <form action="scripts/login.php" method="post" name="login_form">
+            <label for="user_name">Имя</label>
+            <input type="text" name="user_name" id="user_name">
+            <label for="user_password">Пароль</label>
+            <input type="text" name="user_password" id="user_password">
+            <button type="submit">Войти</button>
+        </form>
+    </dialog>
+    
+</body>
+</html>
